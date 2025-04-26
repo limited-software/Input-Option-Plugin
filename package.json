@@ -1,0 +1,24 @@
+{
+  "name": "input-options-plugin",
+  "version": "1.0.0",
+  "description": "Cognigy webchat plugin to replace inpub box with a preset option.",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.jsx"
+  },
+  "alias": {
+    "react": "./alias/react"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "react": "^19.1.0"
+  }
+}
